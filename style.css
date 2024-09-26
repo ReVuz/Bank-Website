@@ -1,0 +1,56 @@
+
+.lexend-unique {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+
+.left{
+position: absolute;
+left: 0rem;
+top: 16rem;
+}
+.right{
+position: absolute;
+top: 14rem;
+left: 40rem;
+}
+
+.yellow-ish{
+    color: #CAFF33;
+}
+
+.button{
+    position: relative;
+    border-radius: 3rem;
+    background-color: #CAFF33;
+    width: 7.5rem;
+    height: 3rem;
+    box-shadow: none;
+    top: 3rem;
+}
+
+#arrow{
+    position: relative;
+    top: -35rem;
+    /* right: 1rem; */
+    left: 20rem;
+    z-index: -1;
+    color: #CAFF33;
+}
+
+.Services{
+    position: relative;
+    top: 65rem;
+    align-items: center;
+}
+
+.Services-list{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+}
