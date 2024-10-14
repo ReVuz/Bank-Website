@@ -1,51 +1,129 @@
+<!-- https://www.figma.com/design/UvZ4MMoQcGBbOF9hahSneB/Banking-UI-(Copy)?node-id=1-130&node-type=canvas&t=kq5MnZ9qIq2T1hUZ-0 -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Welcome to YourBank, offering comprehensive banking solutions to empower your financial journey."
+    />
+    <meta
+      name="keywords"
+      content="banking, finance, deposit, withdraw, services, account"
+    />
+    <meta name="author" content="YourBank" />
     <title>Advanced Bank</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-<body>
-<img src="./assets/main-bg.svg" style="position: absolute; top: -3rem;left: -3rem;" alt="Main design">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <img
+      src="./assets/main-bg.svg"
+      style="position: absolute; top: -9rem; left: -3rem"
+      alt="Main design"
+    />
 
-    <div class="container" style="position: relative;">
-<div class="Navbar" style="position: relative; top: 10rem;"></div>
-    <div class="left">
-    <h1>Welcome to YourBank<br>
-Empowering Your <span class="yellow-ish">Financial <br>Journey</span></h1>
-<p>At YourBank, our mission is to provide comprehensive banking solutions that empower <br>individuals and businesses to achieve their financial goals. We are committed to delivering <br>personalized and innovative services that prioritize our customers' needs.</p>
-<button class="button">Get Started</button>
-</div>
-<div class="right">
-    <img src="./assets/Container.png" style="width: 30rem;" alt="Bank">
-    <img src="./assets/arrow.png" id="arrow" alt="Bank">
-
-</div>
-<div class="Services">
-<h1>Our <span class="yellow-ish">Services</span></h1>
-<p>Discover a range of comprehensive and customizable banking products at YourBank, designed to suit your unique financial needs and aspirations</p>
-<div class="Services-list">
-    <div>
-    <img src="./assets/deposit-withdraw.png" alt="Deposit">
-    <h5>Deposit</h5>
-</div>
-<div>
-    <img src="./assets/deposit-withdraw.png" alt="Withdraw">
-    <h5>Withdraw</h5>
-</div>
-<div>
-    <img src="./assets/Account-details.png" alt="Transfer">
-    <h5>Account <br>Details</h5>
-</div>
-<div>
-    <img src="./assets/view-balance.png" alt="Transfer">
-    <h5>View Balance</h5>
-</div>
-</div>
-</div>
-
-</div>
-</body>
-<link rel="script" type="script/js" href="./script.js">
+    <div class="container" style="position: relative">
+      <div class="Navbar">
+        <div class="navbar_container">
+          <a href="/" class="logo">
+            <img src="./assets/Logo (1).png" alt="YourBank Logo" />
+          </a>
+          <div class="navbar-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar-menu">
+            <li class="navbar-item">
+              <a href="#" class="navbar-links">Home</a>
+              <a href="#" class="navbar-links">Careers</a>
+              <a href="#" class="navbar-links">About</a>
+              <a href="#" class="navbar-links">Security</a>
+            </li>
+            <li class="navbar-btn">
+              <button class="btn">Sign Up</button>
+              <button class="btn">Login</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="left">
+        <h1>
+          Welcome to YourBank<br />
+          Empowering Your
+          <span class="yellow-ish">Financial <br />Journey</span>
+        </h1>
+        <p>
+          At YourBank, our mission is to provide comprehensive banking solutions
+          that empower <br />individuals and businesses to achieve their
+          financial goals. We are committed to delivering <br />personalized and
+          innovative services that prioritize our customers' needs.
+        </p>
+        <button class="button">Get Started</button>
+      </div>
+      <div class="right">
+        <img src="./assets/Container.png" style="width: 30rem" alt="Bank" />
+        <img src="./assets/arrow.png" id="arrow" alt="Bank" />
+      </div>
+      <div class="Services">
+        <h1>Our <span class="yellow-ish">Services</span></h1>
+        <p>
+          Discover a range of comprehensive and customizable banking products at
+          YourBank, designed to suit your unique financial needs and aspirations
+        </p>
+        <div class="Services-list">
+          <div>
+            <img src="./assets/deposit-withdraw.png" alt="Deposit" />
+            <h5>Deposit</h5>
+          </div>
+          <div>
+            <img src="./assets/deposit-withdraw.png" alt="Withdraw" />
+            <h5>Withdraw</h5>
+          </div>
+          <div>
+            <img src="./assets/Account-details.png" alt="Transfer" />
+            <h5>Account <br />Details</h5>
+          </div>
+          <div>
+            <img src="./assets/view-balance.png" alt="Transfer" />
+            <h5>View Balance</h5>
+          </div>
+        </div>
+      </div>
+      <div class="security">
+        <h1>
+          Your Security is Our<span class="yellow-ish"
+            ><br />
+            Top Priority</span
+          >
+        </h1>
+        <p class="left-down">
+          At YourBank, we understand the importance of keeping your financial<br />
+          information secure. We employ robust security measures and advanced<br />
+          technologies to protect your personal and financial data. Rest
+          assured<br />
+          that when you bank with us, your security is our utmost priority.
+        </p>
+        </div>
+        <div class="right-down">
+          <img src="./assets/Security.png" alt="Security" />
+        </div>
+      </div>
+      <div class="protect">
+        <h1>How We <span class="yellow-ish">Protect You</span></h1>
+        <p style="color: #b3b3b3">
+          At YourBank, we prioritize the security and confidentiality of your
+          financial information. Our state-of-the-art encryption technology and
+          stringent data <br />protection measures ensure your assets and
+          transactions are safeguarded at all times
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
 </html>
